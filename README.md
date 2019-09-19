@@ -64,3 +64,7 @@ Week 14 project - Node.js application with Express, Handlebars, Mysql, Heroku
 **Controllers** folder contains class files for the controllers. Controllers handles users’ request and returns a response. MVC requires the name of all controller files to end with “Controller”.
 
 **View** folder stores the HTML files related to application display and user interface. Typically view file is a .cshtml file where you write html and C# or VB.NET code.
+
+config/ Holds the general configuration of the project.
+
+data/ Here, you can store the data files of the project, like a database schema, a SQL file that creates tables, or even a SQLite database file.    
