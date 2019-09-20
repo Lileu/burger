@@ -1,6 +1,6 @@
 // DEPENDENCIES
 var express = require("express");
-var exphbs = require('express-handlebars');
+var exphbs = require("express-handlebars");
 var bodyParser = require("body-parser");
 //var methodOverride = require('method-override');
 
@@ -16,8 +16,8 @@ app.set("view engine", "handlebars");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// MIDDLEWARE
-app.use(express.static(path.join(__dirname, 'app/public'))) // Static middleware function which allows access to the public folder via its absolute path
+// EXPRESS MIDDLEWARE
+app.use(express.static("public")); // Static middleware function which allows access to the public folder via its absolute path
 
 // ROUTING
 var routes = require("./controllers/burgers_controller.js");
@@ -25,6 +25,5 @@ app.use(routes);
 
 // LISTENER
 app.listen(PORT, function() {
-    console.log("Burger App is listening on http://localhost:" + PORT);
-  });
-  
+  console.log("Burger App is listening on http://localhost:" + PORT);
+});
