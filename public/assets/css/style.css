@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/burger-seamless-pattern-background-vector-design_22159-34.jpg");
+  background-repeat: repeat;
+
+}
+
+.jumbotron {
+  background-color: #FFD700;
+  color: #ffffff;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.header {
+  font-family: 'Luckiest Guy', cursive !important;
+  text-shadow: 4px 4px black;
+  font-size: 5rem;
+
+}
+
+h3 {
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.input,
+.submit {
+    display: inline-block;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: .25rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    -webkit-appearance: none;
+    vertical-align: middle;
+}
+
+.form-group {
+  align-items: baseline;
+}
+
+.input {
+  border: 1px solid lightgray;
+}
+
+
+#newburger {
+  color: #5c5c5c;
+}
+
+.panel-heading, .panel-body {
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 10px 15px;
+}
+
+ul {
+  text-align: left;
+}
+
+#removebutton, #eatbutton {
+  margin-left: 10px;
+}
+

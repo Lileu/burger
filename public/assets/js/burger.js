@@ -27,6 +27,8 @@ $(function () {
         var devouredState = {
             devoured: 1
         };
+        var audio = $("#nom")[0];
+        audio.play();
         // send the PUT request
         $.ajax("/api/burgers/" + id, {
             type: "PUT",
@@ -48,9 +50,9 @@ $(function () {
             url: "/api/burgers/" + id
             // reload the page to get the updxated list
         }).then(function () {
-            console.log("Burger binned");
+            console.log("Burger purged");
             // reload the page to get the updxated list
-            location.reload();
+            location.assign("/");
         });
     });
 });

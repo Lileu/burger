@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // MIDDLEWARE
-app.use(express.static(path.join(__dirname, 'app/public'))) // Static middleware function which allows access to the public folder via its absolute path
+app.use(express.static(__dirname + '/public')); // Static middleware function which allows access to the public folder via its absolute path
 
 // ROUTING
 var routes = require("./controllers/burgers_controller.js");

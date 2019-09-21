@@ -6,24 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Burger App</title>
+    <title>Eat-Da-Burger</title>
 
     {{!-- bootstrap css --}}
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    {{!-- bootstrap js --}}
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
-        integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
-        crossorigin="anonymous"></script>
+    {{!-- fontawesome --}}
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
     {{!-- custom css --}}
-    <link rel="stylesheet" href="/public/assets/css/style.css" type="text/css" />
-    <script src="/public/assets/js/burger.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+     {{!-- jquery cdn --}}
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+     {{!-- javascript --}}
+    <script src="/assets/js/burger.js"></script>
 </head>
 
 <body>
+    <audio id="nom" preload="auto">
+  <source src="/public/assets/sound/ra.wav" type="audio/mpeg">
+</audio>
 
     {{{body}}}
 
+   
 </body>
 
+
 </html>
+
