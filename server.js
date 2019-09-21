@@ -16,13 +16,8 @@ app.set("view engine", "handlebars");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-<<<<<<< HEAD
 // MIDDLEWARE
 app.use(express.static(__dirname + '/public')); // Static middleware function which allows access to the public folder via its absolute path
-=======
-// EXPRESS MIDDLEWARE
-app.use(express.static("public")); // Static middleware function which allows access to the public folder via its absolute path
->>>>>>> origin
 
 // ROUTING
 var routes = require("./controllers/burgers_controller.js");
