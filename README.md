@@ -2,7 +2,10 @@
 Week 14 project - Node.js application with Express, Handlebars, Mysql, Heroku
 
 ## Description
+A 
 
+## Preview
+![Screenshot](public\assets\images\screenshot.PNG)
 
 ## Prerequisites
 * install node.js
