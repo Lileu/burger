@@ -2,10 +2,13 @@
 Week 14 project - Node.js application with Express, Handlebars, Mysql, Heroku
 
 ## Description
-A 
+* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+* Whenever a user submits a burger's name, the app will add the burger to the user's plate (leftside panel) - waiting to be devoured.
+* Each burger on the left also has a `Devour` button. When the user clicks it, the burger will move to the right side of the page.ad
+* The app stores every burger in a database, whether devoured or not.
 
 ## Preview
-![Screenshot](public\assets\images\screenshot.PNG)
+![Screenshot](public/assets/images/screenshot.PNG)
 
 ## Prerequisites
 * install node.js
