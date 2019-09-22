@@ -50,6 +50,11 @@ h3 {
   border: 1px solid lightgray;
 }
 
+#eatbutton {
+  background-color: #27742d;    
+  color: #fff;
+  border-color: #27742d;
+}
 
 #newburger {
   color: #5c5c5c;
