@@ -1,6 +1,8 @@
 # burger 
-![Eat-Da-Burger](https://shrouded-plateau-50291.herokuapp.com/)
 Week 14 project - Node.js application with Express, Handlebars, Mysql, Heroku
+
+## Deployed App
+[Eat-Da-Burger](https://shrouded-plateau-50291.herokuapp.com/)
 
 ## Description
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
