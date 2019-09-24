@@ -8,11 +8,11 @@ if (process.env.JAWDB_URL) {
 // If	the	server	lacks	the	variable,	it	falls	back	on	an	explicitly	defined	local	database
 else {
   connection = mysql.createConnection({
-    host: "localhost",
+    host: "fugfonv8odxxolj8.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     port: 3306,
-    user: "root",
-    password: "root",
-    database: "burgers_db"
+    user: "c479ryog95osp3wj",
+    password: "ou79t6p6d8fl00bz",
+    database: "p9ob3m4kwccldre8"
 });
 };
 
@@ -25,5 +25,5 @@ connection.connect(function(err) {
   console.log("connected as id " + connection.threadId);
 });
 
-// Export connection for ORM to use
+// Export connection for ORM
 module.exports = connection;

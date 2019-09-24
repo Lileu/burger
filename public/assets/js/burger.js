@@ -15,7 +15,7 @@ $(function () {
             data: newBurger
         }).then(function () {
             console.log("New burger added");
-            // reload the page to get the updxated list
+            // reload the page to get the updated list
             location.reload();
         });
     });
@@ -35,7 +35,7 @@ $(function () {
             data: devouredState
         }).then(function () {
             console.log("Burger devoured");
-            // reload the page to get the updxated list
+            // reload the page to get the updated list
             location.reload();
         });
     });
@@ -48,10 +48,9 @@ $(function () {
         $.ajax({
             type: "DELETE",
             url: "/api/burgers/" + id
-            // reload the page to get the updxated list
         }).then(function () {
             console.log("Burger purged");
-            // reload the page to get the updxated list
+            // reload the page to get the upxated list
             location.assign("/");
         });
     });
