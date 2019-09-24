@@ -1,7 +1,7 @@
 # burger 
 Week 14 project - Node.js application with Express, Handlebars, Mysql, Heroku
 
-## Deployed App
+## Heroku link
 [Eat-Da-Burger](https://shrouded-plateau-50291.herokuapp.com/)
 
 ## Description
